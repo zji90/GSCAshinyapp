@@ -1,4 +1,4 @@
-Package: GSCA
+Package: GSCAshinyapp
 Type: Package
 Title: GSCA: Gene Set Context Analysis
 Version: 1.7.0
