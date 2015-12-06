@@ -1,0 +1,19 @@
+Package: GSCA
+Type: Package
+Title: GSCA: Gene Set Context Analysis
+Version: 1.7.0
+Date: 2015-1-6
+Author: Zhicheng Ji, Hongkai Ji
+Maintainer: Zhicheng Ji <zji4@jhu.edu>
+Description: GSCA takes as input several lists of activated and
+        repressed genes. GSCA then searches through a compendium of
+        publicly available gene expression profiles for biological
+        contexts that are enriched with a specified pattern of gene
+        expression. GSCA provides both traditional R functions and
+        interactive, user-friendly user interface.
+License: GPL(>=2)
+LazyLoad: yes
+Imports: graphics
+Depends: shiny, sp, gplots, ggplot2, reshape2, RColorBrewer, R(>= 2.10.0)
+Suggests: Affyhgu133aExpr, Affymoe4302Expr, Affyhgu133A2Expr, Affyhgu133Plus2Expr
+biocViews: GeneExpression, Visualization, GUI
